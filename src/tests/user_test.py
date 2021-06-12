@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoAlertPresentException
 import time
 
 driver = webdriver.Chrome('C:\Ahad\Apps\chromedriver_win32\chromedriver.exe')
-driver.implicitly_wait(10)
+driver.implicitly_wait(20)
 driver.maximize_window()
 driver.get("http://localhost:3000/login");
 time.sleep(1)
